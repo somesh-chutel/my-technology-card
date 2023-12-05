@@ -1,7 +1,3 @@
-import CardItem from './components/CardItem'
-
-import './App.css'
-
 const cardsList = [
   {
     id: 1,
@@ -37,22 +33,6 @@ const cardsList = [
   },
 ]
 
-const App = () => (
-  <div className="cards-app-container">
-    <div className="cards-list-container">
-      <h1 className="heading">Learn 4.0 Technologies</h1>
-      <p className="description">
-        Get trained by alumni of IITs and top companies like Amazon, Microsoft,
-        Intel, Nvidia, Qualcomm, etc. Learn directly from professionals involved
-        in Product Development.
-      </p>
-      <ul className="cards-list">
-        {cardsList.map(eachCard => (
-          <CardItem cardDetails={eachCard} key={eachCard.id} />
-        ))}
-      </ul>
-    </div>
-  </div>
-)
+const App = () => <h1>Hello World</h1>
 
 export default App
